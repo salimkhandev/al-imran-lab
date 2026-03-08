@@ -22,7 +22,7 @@ function createWindow() {
         },
     });
 
-    // Only show the window after content is fully painted
+    // Only show the window after contente is fully painted
     win.once('ready-to-show', () => {
         win.maximize();
         win.show();
